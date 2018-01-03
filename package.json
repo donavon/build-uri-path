@@ -1,0 +1,36 @@
+{
+  "name": "build-uri-path",
+  "version": "0.2.0",
+  "description": "Reliably build a Uri path",
+  "author": "Donavon West <github@donavon.com> (http://donavon.com)",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm test && npm run build",
+    "build": "babel src --out-dir lib --ignore '**/*.test.js'",
+    "test": "eslint src && jest"
+  },
+  "keywords": [
+    "rest",
+    "uri",
+    "path"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donavon/build-uri-path.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donavon/build-uri-path/issues"
+  },
+  "homepage": "https://github.com/donavon/build-uri-path#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.0.3"
+  }
+}
