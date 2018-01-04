@@ -1,6 +1,6 @@
 {
   "name": "build-uri-path",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Reliably build a Uri path",
   "author": "Donavon West <github@donavon.com> (http://donavon.com)",
   "main": "lib/index.js",
