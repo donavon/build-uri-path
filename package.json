@@ -4,6 +4,7 @@
   "description": "Reliably build a Uri path",
   "author": "Donavon West <github@donavon.com> (http://donavon.com)",
   "main": "lib/index.js",
+  "types": "types/build-uri-path.d.ts",
   "scripts": {
     "prepublish": "npm test && npm run build",
     "build": "babel src --out-dir lib --ignore '**/*.test.js'",
