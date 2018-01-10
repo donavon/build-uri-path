@@ -1,12 +1,12 @@
 {
   "name": "build-uri-path",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Reliably build a Uri path",
   "author": "Donavon West <github@donavon.com> (http://donavon.com)",
   "main": "lib/index.js",
   "types": "types/build-uri-path.d.ts",
   "scripts": {
-    "prepublish": "npm test && npm run build",
+    "prepublishOnly": "npm test && npm run build",
     "build": "babel src --out-dir lib --ignore '**/*.test.js'",
     "test": "eslint src && jest"
   },
